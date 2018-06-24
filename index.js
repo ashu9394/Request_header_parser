@@ -8,8 +8,8 @@ var app = express()
 
 app.use('/',function(req,res){
     res.json({
+        ip:req.connection.remoteAddress,
         osType : os.type(),
-        cpu:os.cpus(),
         platform : os.platform(),
         arch : os.arch()
     })
