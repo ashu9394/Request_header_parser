@@ -1,0 +1,25 @@
+{
+  "name": "request_header_parser",
+  "version": "1.0.0",
+  "description": "node microservice for parsing browser info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashu9394/Request_header_parser.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Ashu Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashu9394/Request_header_parser/issues"
+  },
+  "homepage": "https://github.com/ashu9394/Request_header_parser#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
